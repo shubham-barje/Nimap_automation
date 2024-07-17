@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LoginSuite">
+  <test thread-count="5" name="TestLogin">
+  <parameter name="mobile_no" value="9321558162"></parameter>
+  <parameter name="password" value="barje@2613"></parameter>
+    <classes>
+      <class name="com.qa.nimap.testcases.LoginTestCase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

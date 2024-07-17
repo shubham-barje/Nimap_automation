@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MasterSuite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.qa.nimap.testcases.AddCustomerTestCase"/>
+      <class name="com.qa.nimap.testcases.PunchInTestCase"/>
+      <class name="com.qa.nimap.testcases.LoginTestCase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
